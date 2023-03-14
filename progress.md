@@ -20,54 +20,42 @@ Next, we have removed the unnecessary columns from the datasets and renamed file
 - from [new_cases_of_hiv_infection.csv](csv_files/inputs/new_cases_of_hiv_infection.csv) to [prevalence.csv](csv_files/outputs/prevalence.csv)
 - we have decided not to change the name [life_expectancy.csv](csv_files/inputs/life_expectancy.csv).
 
-We have created the Entity Relationship Diagram (ERD) for our database. The ERD is as follows:
+We have created the Entity Relationship Diagram (ERD) for our database:
 
 ![Entity Relationship Diagram](assets/er_diagram.png)
 
 Our database have the following tables:
 
-- Countries (name, code)
+- Countries (name, iso_code)
 - HIV_Prevelance (date, country, prevelance)
-  - Report {weak entity}
 - HIV_Deaths (date, country, deaths)
-  - Report {weak entity}
 - HIV_Incidence (date, country, incidence)
-  - Report {weak entity}
 - ART_Treatment (date, country, treatment)
-  - Announce {weak entity}
 - Life_Expectancy (date, country, expectancy)
-  - Announce {weak entity}
 
 While we were creating the ERD, we have decided to add the following key constraints to our database:
 
-- Name is a primary key in the Countries table.
-- Country code is a foreign key in the following tables:
+- `name` is a primary key in the Countries table.
+- `country` is a foreign key from `Countries.name` in the following tables:
   - HIV_Prevelance
   - HIV_Deaths
   - HIV_Incidence
   - ART_Treatment
   - Life_Expectancy
-- Date is a primary key in the following tables:
+- Date is a partial key in the following weak entities:
   - HIV_Prevelance
   - HIV_Deaths
   - HIV_Incidence
   - ART_Treatment
   - Life_Expectancy
 
-We also decided to add the following custom constructs to our database:
+We have these relationships between the tables:
 
-- Report {weak entity}:
-  - Report is a weak entity of HIV_Prevelance, HIV_Deaths, and HIV_Incidence.
-  - Report has a primary key of ???.
-  - Report has a foreign key of ???.
+- `Countries` (entity) `Report` (relation) via one-to-many relationship:
+  - HIV_Prevelance
+  - HIV_Deaths
+  - HIV_Incidence
 
-- Announce {weak entity}:
-  - Announce is a weak entity of ART_Treatment and Life_Expectancy.
-  - Announce has a primary key of ???.
-  - Announce has a foreign key of ???.
-
-After that, we wanted to include the participation constraints in our database. We have decided to add the following one to one and one to many participation constraints:
-
-- One to one participation constraint:
-  - Report is a one to one participation constraint of HIV_Prevelance, HIV_Deaths, and HIV_Incidence.
-  - Announce is a one to one participation constraint of ART_Treatment and Life_Expectancy.
+- `Countries` (entity) `Announce` (relation) via one-to-many relationship:
+  - ART_Treatment
+  - Life_Expectancy
