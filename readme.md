@@ -5,7 +5,7 @@
 - [Ahmet Eren Çağatay](https://github.com/aerencagatay)
 - [Ahmet Melih Afşar](https://github.com/ahmetmelihafsar)
 - [Ege Altar](https://github.com/egealtar)
-- [Emin Büstün](https://github.com/eminbustun)
+- [Bülent Emin Üstün](https://github.com/eminbustun)
 - [Tolga Mert Çalışkan](https://github.com/togimert)
 
 ## Project Description
