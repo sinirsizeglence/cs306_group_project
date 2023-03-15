@@ -4,7 +4,7 @@
 
 - [Ahmet Eren Çağatay](https://github.com/aerencagatay)
 - [Ahmet Melih Afşar](https://github.com/ahmetmelihafsar)
-- [Ege Altar](https://github.com/egealtar)
+- [Ege Altar Deniz](https://github.com/egealtar)
 - [Bülent Emin Üstün](https://github.com/eminbustun)
 - [Tolga Mert Çalışkan](https://github.com/togimert)
 
