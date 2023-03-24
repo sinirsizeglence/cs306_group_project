@@ -1,4 +1,4 @@
-Entity;Year;Deaths averted due to ART - estimate;AIDS-related deaths - all ages - All ages estimate
+country;date;deaths_averted;hiv_death
 Afghanistan;1990;0;10,9973
 Afghanistan;1991;0;15,0101
 Afghanistan;1992;0;20,1729

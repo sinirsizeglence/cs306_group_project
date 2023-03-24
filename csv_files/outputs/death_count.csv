@@ -1,4 +1,4 @@
-Entity;Year;Deaths - HIV/AIDS - Sex: Both - Age: 70+ years (Number);Deaths - HIV/AIDS - Sex: Both - Age: 50-69 years (Number);Deaths - HIV/AIDS - Sex: Both - Age: 15-49 years (Number);Deaths - HIV/AIDS - Sex: Both - Age: 5-14 years (Number);Deaths - HIV/AIDS - Sex: Both - Age: Under 5 (Number)
+country;date;death_70plus;death_50_69;death_15_49;death_5_14;death_under5
 Afghanistan;1990;1;7;15;0;10
 Afghanistan;1991;1;8;19;0;12
 Afghanistan;1992;2;9;24;0;13
