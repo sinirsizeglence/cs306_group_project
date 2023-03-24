@@ -1,6 +1,6 @@
-name,iso_code
+country,iso_code
 Afghanistan,AFG
-African Region (WHO),null
+African Region (WHO),
 Albania,ALB
 Algeria,DZA
 American Samoa,ASM
@@ -53,25 +53,23 @@ Denmark,DNK
 Djibouti,DJI
 Dominica,DMA
 Dominican Republic,DOM
-East Asia & Pacific (WB),null
-Eastern Mediterranean Region (WHO),null
+East Asia & Pacific (WB),
+Eastern Mediterranean Region (WHO),
 Ecuador,ECU
 Egypt,EGY
 El Salvador,SLV
-England,null
+England,
 Equatorial Guinea,GNQ
 Eritrea,ERI
 Estonia,EST
 Eswatini,SWZ
 Ethiopia,ETH
-Europe & Central Asia (WB),null
-European Region (WHO),null
+Europe & Central Asia (WB),
+European Region (WHO),
 Fiji,FJI
 Finland,FIN
 France,FRA
-French Guiana,GUF
-French Polynesia,PYF
-G20,null
+G20,
 Gabon,GAB
 Gambia,GMB
 Georgia,GEO
@@ -80,7 +78,6 @@ Ghana,GHA
 Greece,GRC
 Greenland,GRL
 Grenada,GRD
-Guadeloupe,GLP
 Guam,GUM
 Guatemala,GTM
 Guinea,GIN
@@ -88,7 +85,6 @@ Guinea-Bissau,GNB
 Guyana,GUY
 Haiti,HTI
 Honduras,HND
-Hong Kong,HKG
 Hungary,HUN
 Iceland,ISL
 India,IND
@@ -104,11 +100,10 @@ Jordan,JOR
 Kazakhstan,KAZ
 Kenya,KEN
 Kiribati,KIR
-Kosovo,OWID_KOS
 Kuwait,KWT
 Kyrgyzstan,KGZ
 Laos,LAO
-Latin America & Caribbean (WB),null
+Latin America & Caribbean (WB),
 Latvia,LVA
 Lebanon,LBN
 Lesotho,LSO
@@ -116,7 +111,6 @@ Liberia,LBR
 Libya,LBY
 Lithuania,LTU
 Luxembourg,LUX
-Macau,null
 Madagascar,MDG
 Malawi,MWI
 Malaysia,MYS
@@ -124,12 +118,11 @@ Maldives,MDV
 Mali,MLI
 Malta,MLT
 Marshall Islands,MHL
-Martinique,MTQ
 Mauritania,MRT
 Mauritius,MUS
 Mexico,MEX
 Micronesia (country),FSM
-Middle East & North Africa (WB),null
+Middle East & North Africa (WB),
 Moldova,MDA
 Monaco,MCO
 Mongolia,MNG
@@ -141,19 +134,18 @@ Namibia,NAM
 Nauru,NRU
 Nepal,NPL
 Netherlands,NLD
-New Caledonia,NCL
 New Zealand,NZL
 Nicaragua,NIC
 Niger,NER
 Nigeria,NGA
 Niue,NIU
-North America (WB),null
+North America (WB),
 North Korea,PRK
 North Macedonia,MKD
-Northern Ireland,null
+Northern Ireland,
 Northern Mariana Islands,MNP
 Norway,NOR
-OECD Countries,null
+OECD Countries,
 Oman,OMN
 Pakistan,PAK
 Palau,PLW
@@ -167,7 +159,7 @@ Poland,POL
 Portugal,PRT
 Puerto Rico,PRI
 Qatar,QAT
-Region of the Americas (WHO),null
+Region of the Americas (WHO),
 Romania,ROU
 Russia,RUS
 Rwanda,RWA
@@ -178,7 +170,7 @@ Samoa,WSM
 San Marino,SMR
 Sao Tome and Principe,STP
 Saudi Arabia,SAU
-Scotland,null
+Scotland,
 Senegal,SEN
 Serbia,SRB
 Seychelles,SYC
@@ -189,13 +181,13 @@ Slovenia,SVN
 Solomon Islands,SLB
 Somalia,SOM
 South Africa,ZAF
-South Asia (WB),null
+South Asia (WB),
 South Korea,KOR
 South Sudan,SSD
-South-East Asia Region (WHO),null
+South-East Asia Region (WHO),
 Spain,ESP
 Sri Lanka,LKA
-Sub-Saharan Africa (WB),null
+Sub-Saharan Africa (WB),
 Sudan,SDN
 Suriname,SUR
 Sweden,SWE
@@ -225,16 +217,72 @@ Uzbekistan,UZB
 Vanuatu,VUT
 Venezuela,VEN
 Vietnam,VNM
-Wales,null
-Wallis and Futuna,WLF
-Western Pacific Region (WHO),null
-Western Sahara,ESH
+Wales,
+Western Pacific Region (WHO),
 World,OWID_WRL
-World (excluding China),null
-World Bank High Income,null
-World Bank Low Income,null
-World Bank Lower Middle Income,null
-World Bank Upper Middle Income,null
+World Bank High Income,
+World Bank Low Income,
+World Bank Lower Middle Income,
+World Bank Upper Middle Income,
 Yemen,YEM
 Zambia,ZMB
 Zimbabwe,ZWE
+Asia and the Pacific,
+Caribbean,
+East and Southern Africa,
+Eastern Europe and Central Asia,
+Latin America,
+Middle East and North Africa,
+West and Central Africa,
+Western & Central Europe and North America,
+Africa,
+Americas,
+Anguilla,AIA
+Aruba,ABW
+Asia,
+Bonaire Sint Eustatius and Saba,BES
+British Virgin Islands,VGB
+Cayman Islands,CYM
+Curacao,CUW
+Europe,
+Faeroe Islands,FRO
+Falkland Islands,FLK
+French Guiana,GUF
+French Polynesia,PYF
+Gibraltar,GIB
+Guadeloupe,GLP
+Guernsey,GGY
+High-income countries,
+Hong Kong,HKG
+Isle of Man,IMN
+Jersey,JEY
+Kosovo,OWID_KOS
+Land-locked Developing Countries (LLDC),
+Latin America and the Caribbean,
+Least developed countries,
+Less developed regions,
+"Less developed regions, excluding China",
+"Less developed regions, excluding least developed countries",
+Liechtenstein,LIE
+Low-income countries,
+Lower-middle-income countries,
+Macao,MAC
+Martinique,MTQ
+Mayotte,MYT
+Montserrat,MSR
+More developed regions,
+New Caledonia,NCL
+Northern America,
+Oceania,
+Reunion,REU
+Saint Barthlemy,
+Saint Helena,SHN
+Saint Martin (French part),MAF
+Saint Pierre and Miquelon,SPM
+Sint Maarten (Dutch part),SXM
+Small Island Developing States (SIDS),
+Turks and Caicos Islands,TCA
+Upper-middle-income countries,
+Vatican,VAT
+Wallis and Futuna,WLF
+Western Sahara,ESH
