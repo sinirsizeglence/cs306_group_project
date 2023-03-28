@@ -1,4 +1,4 @@
-Entity;Year;Life expectancy at birth (historical);
+country;date;longevity;
 Afghanistan;1950;27,7;
 Afghanistan;1951;28;
 Afghanistan;1952;28,4;
