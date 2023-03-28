@@ -36,14 +36,23 @@ The objective we aimed for this project is to design a medical database applicat
   - [x] Drop unnecessary columns
 - [x] Database Design
   - [x] Entity Relationship Diagram
-  - [ ] Relational Schema
-    - [ ] Incidents
-    - [ ] Deaths
-    - [ ] Prevalence
-    - [ ] ART
-    - [ ] Life Expectancy
-- [ ] Database Implementation
+  - [x] Relational Schema
+    - [x] Incidents
+    - [x] Deaths
+    - [x] Prevalence
+    - [x] ART
+    - [x] Life Expectancy
+- [x] Database Implementation
+  - [x] Create Database
+  - [x] Create Tables
+  - [x] Initialize Relations
+  - [x] Add Key Constraints
+  - [x] Insert Data
 - [ ] Database Testing
 - [ ] Database Documentation
 
 You can get detailed information on the progress of the project in the [Progress](progress.md) page.
+Steps:
+
+- [x] **Step 1: Data Collection, Cleaning, Creating ER Diagram**
+- [x] **Step 2: Creating Database, Tables, Relations, and Inserting Data**
