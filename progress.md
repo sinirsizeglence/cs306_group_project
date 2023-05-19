@@ -157,7 +157,7 @@ LOAD DATA LOCAL INFILE 'csv_files/outputs/life_expectancy.csv' INTO TABLE Life_E
 LOAD DATA LOCAL INFILE 'csv_files/outputs/prevalence.csv' INTO TABLE Reported_HIV_Prevelance FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
 ```
 
-## Step 3: Creating Views
+## Step 3: Creating Views, Checks, Procedures
 
 ### Part 1
 
